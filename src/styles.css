@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f8f9fa; 
+  font-family: Arial, sans-serif; 
+}
+
+.Todoheader {
+  text-align: center;
+  color: #333; 
+  background-color: #6c757d; 
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 40px;
+  font-size: 24px;
+}
+
+.TodoListComponent {
+  background-color: #fff; 
+  text-align: center;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.TodoItemContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.TodoItem {
+  flex-grow: 1;
+  padding-left: 20px;
+  color: #333;
+}
+
+.RemoveButton,
+.AddTodo,
+.formButton {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: medium;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #474449;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
+
+.inputfield {
+  margin-bottom: 10px;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  text-align: left;
+}
+
+.deleteButton {
+  margin-left: auto;
+  border: none;
+  background-color: transparent;
+}
